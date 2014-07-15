@@ -5,3 +5,5 @@ var flag = true;
 var c = a * flag + b * !flag;
 
 c = eval("a * flag + b * !flag");
+
+c = a*flag || b*(!flag);
